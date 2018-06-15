@@ -12,6 +12,7 @@ class App extends React.Component {
     const data = await API_CALL.json();
     console.log(data);
   }
+  
 render(){
   return (
   <div>

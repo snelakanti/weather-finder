@@ -4,10 +4,11 @@ class Form extends React.Component{
 
     render(){
         return(
-<div>
-    form component 
-</div>
-
+<form>
+    <input type="text" name ="city" Placeholder = "City..."/>
+    <input type="text" name ="country" Placeholder = "Country..."/>
+    <button>Get Weather</button>
+</form>
         );
     }
 }
