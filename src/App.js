@@ -1,9 +1,12 @@
 import React from 'react';
+import Titles from './components/Titles.js'
 
 class App extends React.Component {
 render(){
   return (
-  <div>Hello</div>
+  <div>
+    <Titles />
+  </div>
   );
 }
 }
