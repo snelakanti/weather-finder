@@ -4,9 +4,9 @@ class Form extends React.Component{
 
     render(){
         return(
-<form>
-    <input type="text" name ="city" Placeholder = "City..."/>
-    <input type="text" name ="country" Placeholder = "Country..."/>
+<form onSubmit = {this.props.getWeather}>
+    <input type="text" name ="city" placeholder = "City..."/>
+    <input type="text" name ="country" placeholder = "Country..."/>
     <button>Get Weather</button>
 </form>
         );
